@@ -56,3 +56,4 @@ class CRNN(nn.Module):
         
         # Softmax is not explicitly applied because it's included in the CTCLoss during training
         return out
+

@@ -82,3 +82,4 @@ if __name__ == '__main__':
     pred = infer(model, image_path, char_to_index)
     print(pred)
     
+    

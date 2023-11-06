@@ -69,4 +69,3 @@ if __name__ == '__main__':
 
     runner(model, train_loader, NUM_EPOCHS, LR, DEVICE)
 
-

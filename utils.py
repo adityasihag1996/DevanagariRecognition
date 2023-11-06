@@ -56,3 +56,4 @@ def load_images_and_labels(images_folder, ground_truth_path, char_to_index):
     encoded_labels = encode_labels(labels, char_to_index)
 
     return images, encoded_labels
+

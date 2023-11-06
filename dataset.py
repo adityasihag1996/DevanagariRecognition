@@ -52,3 +52,4 @@ def create_dataset_and_dataloader(images_path, ground_truth_path, vocab_path, te
     test_loader = DataLoader(test_dataset, batch_size = BATCH_SIZE, shuffle = False, collate_fn = collate_fn)
     
     return train_loader, test_loader
+
